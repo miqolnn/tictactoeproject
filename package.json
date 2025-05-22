@@ -1,0 +1,24 @@
+{
+  "name": "tictactoeproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miqolnn/tictactoeproject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miqolnn/tictactoeproject/issues"
+  },
+  "homepage": "https://github.com/miqolnn/tictactoeproject#readme",
+  "dependencies": {
+    "net": "^1.0.2",
+    "ws": "^8.18.2"
+  }
+}

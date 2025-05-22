@@ -9,6 +9,8 @@ public:
     bool applyPlayerMove(int index);
     std::string& getBoardState();
     void applyAIMove(int index);
+
+    bool isGameOver() const;
 private:
     std::string board;
 };

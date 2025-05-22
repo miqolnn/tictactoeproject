@@ -47,7 +47,7 @@ int main() {
             perror("accept");
             continue;
         }
-
+	std::cout<<"user connected\n";
         std::string ip = inet_ntoa(client_addr.sin_addr);
         threads.emplace_back(handle_client, client_socket, ip);
     }
